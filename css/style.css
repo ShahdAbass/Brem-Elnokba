@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Almarai";
+    src: url("../fonts/Almarai-Regular.ttf") format("truetype");
+}
+
+.snap {
+    height: 60vh;
+}
+
+.fa-brands,
+.fa-solid {
+    font-size: 40px;
+    /*color: #031089;*/
+}
+
+.box {
+    border: 1px solid #e9e9e9;
+    margin-bottom: 11px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Almarai';
+}
+
+.h3-box {
+    font-size: 17px;
+}
+
+.row-box {
+    padding: 10px;
+}
+
+.icon-link {
+    padding: 0px 7px;
+}
+
+.fa-square-whatsapp {
+    color: #075E54;
+}
+
+.fa-globe {
+    color: #075E54;
+}
+
+.fa-twitter {
+    color: #00acee;
+}
+
+.fa-tiktok {
+    color: #000;
+}
+
+.fa-img {
+    width: 40px;
+}
+
+.fa-map-location-dot {
+    color: gold;
+}
+
+@media only screen and (min-width: 480px) {
+    .box {
+        margin-left: 1%;
+        width: 24%;
+    }
+    .fa-img {
+        margin-top: -14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .snap {
+        height: 38vh;
+    }
+    .box {
+        display: flex;
+    }
+    .h3-box {
+        font-size: 17px;
+        padding-top: 10px;
+    }
+}
